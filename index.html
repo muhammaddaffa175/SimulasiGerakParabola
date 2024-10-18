@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulasi Gerak Parabola</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simulasi Gerak Parabola</h1>
+    <div class="form-container">
+        <form id="parameter-form">
+            <label for="velocity">Kecepatan Awal (m/s):</label>
+            <input type="number" id="velocity" placeholder="Masukkan kecepatan awal" required>
+            <label for="angle">Sudut Peluncuran (derajat):</label>
+            <input type="number" id="angle" placeholder="Masukkan sudut" required>
+            <button type="submit">Jalankan Simulasi</button>
+        </form>
+    </div>
+
+    <section class="canvas-container">
+        <canvas id="simulationCanvas"></canvas>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
